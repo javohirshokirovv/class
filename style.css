@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 0 121px;
+}
+.logo{
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+.info{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+.title,.subtitle{
+    display: block;
+    font-size: 21px;
+}
+.subtitle{
+    font-weight: 700;
+}
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: 'Chava', sans-serif;
+                                                
+}
+.info_text{
+    font-weight: 300px;
+    font-size: 27px;
+    max-width: 930px;
+    margin-bottom: 20px;
+}
+.primary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    border: 1px solid black;
+    background-color: #6E3ABA;
+    color:white;
+    margin-right: 30px;
+}
+.secondary {
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    border: 1px solid black;
+    background-color: white;
+    color:#6E3ABA;
+}
+.info_wrapper{
+    background-image: url(./html_css_js\ 1\ \(1\).png);
+    background-position: right 58px top 121px;
+    background-repeat: no-repeat;
+    background-size: 30vw ;
+}
+.timer{
+    background-color: #6E3ABA;
+    margin-top: 160px;
+    padding-top: 80px;
+    padding-left: 164px;
+
+}
+.discount{
+    font-family: 'TT Hoves Pro Trial';
+    color:white;
+font-size: 52px;
+font-weight: 700;
+line-height: 61.26px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.timer_cards{
+    margin-top: 57px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+}
+.cards{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 251px;
+}
+.hours{
+    font-family: 'Chava';
+font-size: 174px;
+line-height: 187.05px;
+
+}
+.date{
+    font-family: 'TT Hoves';
+font-size: 27px;
+font-weight: 500;
+line-height: 31.81px;
+text-align: center;
+
+}
+.white{
+    font-family: 'TT Hoves';
+font-size: 18px;
+font-weight: 500;
+line-height: 21.2px;
+text-align: center;
+width:  328px;
+height: 61px;
+top: 474px;
+left: 505px;
+padding: 20px 0px 20px 0px;
+gap: 10px;
+border-radius: 12px;
+opacity: 0px;
+align-content: center;
+margin-left: 380px;
+margin-top: 57px;
+margin-right: 447px;
+margin-bottom: 88px;
+
+
+}
