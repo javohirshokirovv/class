@@ -16,6 +16,7 @@ section {
     margin-bottom: 76px;
 }
 .title,.subtitle{
+    font-family: "TT Hoves";
     display: block;
     font-size: 21px;
 }
@@ -24,7 +25,6 @@ section {
 }
 h1{
     font-size: 80px;
-    font-weight: 400;
     margin-bottom: 40px;
     font-family: 'Chava', sans-serif;
                                                 
@@ -122,5 +122,124 @@ margin-top: 57px;
 margin-right: 447px;
 margin-bottom: 88px;
 
+
+}
+
+.courseProgram {
+    border: 2px solid black;
+    padding: 80px 64px 35px;
+    position: relative;
+}
+
+#corner.svg {
+    width: 50px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+
+}
+
+.lesson {
+    list-style-type: none;
+    margin: 40px 0  34px;
+    font-size: 21px;
+    line-height: 140%;
+
+}
+
+.lesson li {
+    border-bottom: 1px solid #A1A1A1;
+    padding-bottom: 24px;
+    margin-top: 24px;
+}
+
+.desktop {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.phone {
+    display: none;
+    margin: 30px auto 0;
+
+}
+
+@media (max-width: 700px) {
+    .desktop {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+}
+.second {
+    margin-top: 100px;
+}
+.corner {
+    width: 30px;
+    height: 30px;
+}
+
+.main{
+    background-image: url(./html_css_js\ 1.png);
+    background-position: right 58px top 121px;
+    background-repeat: no-repeat;
+    background-size: 30vw ;
+}
+
+
+.mainpic{
+    margin-top: calc(6.2vw + 15.4px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(6.2vw + 15.4px)
+
+    
+    
+}
+
+.mainpic div{
+
+    width: calc(25.08vw + 228.9px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+
+    
+    
+}
+
+
+h1{
+    font-size: calc(2.7vw + 23.2px) ;
+
+}
+
+
+.text{
+    font-size: calc(1.01vw + 13.9px);
+}
+
+
+.mainpic div img{
+    
+    width: calc(12.09vw + 132.24px);
+
+}
+
+.input{
+    font-size: calc(1.01vw + 13.9px);
 
 }
