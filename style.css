@@ -180,6 +180,9 @@ h1 {
     .phone {
         display: block;
     }
+    .legend_cards{
+        grid-template-areas: "smile keyboard" " champion case"
+    }
 }
 .second {
     margin-top: 100px;
@@ -214,11 +217,6 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
-
-
-    
-    
 }
 
 
@@ -242,4 +240,184 @@ h1{
 .input{
     font-size: calc(1.01vw + 13.9px);
 
+}
+
+.legend_img{
+    flex-basis: 399px;
+    flex-shrink: 1;
+}
+.legend_info{
+    flex-grow: 100;
+    flex-basis: 566px;
+}
+.teacher_info h4{
+    font-size: calc(1.1vw + 34px);
+    line-height: 121%;
+    margin-bottom: calc(1.1vw + 5.8px);
+}
+.teacher_info p{
+    font-size: clac(1vw +14.2px);
+    margin-bottom: calc(5.5vw + 19.2px);
+}
+.legend_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "smile cup" "case keyboard";
+    gap: calc(1.1vw + 26px) calc(8.8vw - 23px);
+}
+.smile{
+    width: 30px;
+}
+.cup{
+    width: 30px;
+}
+.case{
+    width: 30px;
+}
+.keyboard{
+    width: 30px;
+}
+.container{
+    display: flex;
+    align-items:flex-start;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+.content{
+    margin-left: 20px;
+}
+h2{
+    font-family: 'TT Hoves'
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.education{
+    width: 400px;
+}
+.employment{
+    width: 400px;
+}
+.practice{
+    width: 400px;
+}
+.result{
+    width: 400px
+}
+.sallery{
+        margin: 20px; 
+        margin-top: 10px; 
+        margin-right: 15px; 
+        margin-bottom: 20px; 
+        margin-left: 5px; 
+}
+.computer{
+        margin: 20px; 
+        margin-top: 10px; 
+        margin-right: 15px; 
+        margin-bottom: 20px; 
+        margin-left: 5px;
+
+}
+.partnership{
+        margin: 20px; 
+        margin-top: 10px; 
+        margin-right: 15px; 
+        margin-bottom: 20px; 
+        margin-left: 5px;
+
+}
+h2{
+    font-size: 80px;
+    margin-bottom: 40px;
+    font-family: 'TT Hoves';
+    margin-top: 10p;
+}
+.job_info{
+    margin-top: 100px;
+}
+.diploma{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card span{
+    display: block;
+    font-size: calc(0.6vw + 14px);
+    width: calc(10.4vw + 117.5px);
+}
+.card:first-child{
+    grid-area: smile;
+}
+.card:nth-of-type(2){
+    grid-area: Champion;
+}
+.card:nth-of-type(3){
+    grid-area: case;
+}
+.card:nth-of-type(4){
+    grid-area: keyboard;
+}
+.job_salary p{
+    font-size: calc(1vw + 14.2px);
+    width: clac(60.6vw + 101px);
+    margin-bottom: clac(1.8vw + 13.3px);
+}
+.job_salary img{
+    width: calc(82.3vw + 14.2px);
+}
+.job_salary span{
+    font-weight: bold;
+} 
+
+.feedback_card{
+    background-color:rgba(240, 247, 253, 1);
+    border-radius: 12px;
+    padding: 56px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+.feedback_text{
+    margin-bottom: 10px;
+}
+}
+.youtube {
+    margin-top: 12px;
+}
+.feedback_card{
+    margin: 0;
+}
+.user_info{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.user_img h5{
+    width: 169px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.user_img img{
+    border-radius: 50%;
 }
