@@ -290,7 +290,7 @@ h1{
     margin-left: 20px;
 }
 h2{
-    font-family: 'TT Hoves'
+    font-family: 'TT Hoves';
     font-size: 58px;
     font-weight: 500;
     line-height: 68.32px;
@@ -351,8 +351,14 @@ h2{
 .diploma{
     margin-top: 100px;
 }
-
-
+.outlet{
+    margin-bottom: 40px;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 
@@ -420,4 +426,36 @@ h2{
 }
 .user_img img{
     border-radius: 50%;
+}
+footer{
+    padding:0 calc(10.6vw - 15.8px);
+    display: flex;
+    justify-content: space-between;
+}
+.footer_right{
+    width: 50%;
+}
+.footer_left{
+    width: 50%;
+}
+.footer_right_wrapper{
+    background-color: #fff;
+    width: calc(16.4vw + 265px);
+    padding: 60px calc(4.4vw + 11.3px);
+    border-radius: 12px;
+    position: relative;
+}
+.sale{
+    width: calc(6.1vw + 82.1px);
+    height: calc(6.1vw + 82.1px);
+    color: #fff;
+    background-color: #6E3ABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(2.5vw + 30.4px);
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    right: -80px;
 }
